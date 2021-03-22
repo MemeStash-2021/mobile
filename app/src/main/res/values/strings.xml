@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Memestash</string>
+    <string name="introText">Welcome</string>
+    <string name="pfContentDescription">Profile Picture</string>
+    <string name="username">username</string>
+    <string name="coinsAmount">9999999999</string>
+    <string name="cardInfo">Views: 22K; Likes: 2K</string>
+    <string name="card_image">Card Image</string>
 </resources>
