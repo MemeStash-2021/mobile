@@ -25,64 +25,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:id="@+id/profileCard"
-        android:layout_width="394dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="horizontal"
+    <fragment
+        android:id="@+id/indexFragment"
+        android:name="be.howest.borobbrecht.memestash.IndexFragment"
+        android:layout_width="375dp"
+        android:layout_height="669dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo">
-
-        <ImageView
-            android:id="@+id/profilePic"
-            android:layout_width="265dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:contentDescription="@string/pfContentDescription"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <LinearLayout
-            android:id="@+id/profileInfo"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:textAlignment="center">
-
-            <TextView
-                android:id="@+id/introText"
-                android:layout_width="match_parent"
-                android:layout_height="33dp"
-                android:baselineAligned="false"
-                android:fontFamily="@font/roboto"
-                android:text="@string/introText"
-                android:textAlignment="center"
-                android:textColor="#FFFFFF" />
-
-            <TextView
-                android:id="@+id/username"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/bungee"
-                android:text="@string/username"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/coins"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:text="@string/coinsAmount"
-                android:textAlignment="center"
-                android:textColor="#FFFFFF" />
-
-        </LinearLayout>
-    </LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:layout="@layout/index_fragment" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-<!--TODO: Add a recyclerview when implementing the card view (We'll need a layout manager for this)-->
