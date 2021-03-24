@@ -1,4 +1,4 @@
-package be.howest.borobbrecht.memestash
+package be.howest.borobbrecht.memestash.index
 
 import androidx.lifecycle.ViewModel
 

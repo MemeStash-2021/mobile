@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/indexFragment"
-        android:name="be.howest.borobbrecht.memestash.IndexFragment"
+        android:name="be.howest.borobbrecht.memestash.index.IndexFragment"
         android:layout_width="375dp"
         android:layout_height="669dp"
         android:layout_marginTop="8dp"
