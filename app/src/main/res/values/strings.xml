@@ -14,4 +14,7 @@
     <string name="home_button">Home</string>
     <string name="cards_button">Cards</string>
     <string name="messages_button">Messages</string>
+    <string name="back_text">Back</string>
+    <string name="message_placeholder">Message...</string>
+    <string name="send_text">Send</string>
 </resources>
