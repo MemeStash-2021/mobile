@@ -25,7 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.fragment.app.FragmentContainerView
+    <fragment
         android:id="@+id/indexFragment"
         android:name="be.howest.borobbrecht.memestash.index.IndexFragment"
         android:layout_width="374dp"
