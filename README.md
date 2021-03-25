@@ -7,11 +7,13 @@ Welcome to the MemeStash Kotlin Repository. This Kotlin application can be used 
 ### Screens
 |Name|XML File|Fragment?|
 |---|---|---|
-|Base layer|`main_activity.xml`|❌|
+|Base layer|`activity_main.xml`|❌|
 |Home / Index Page |`index_fragment.xml`|✔️|
 |Collection Page|`collection_fragment.xml`|✔️|
 |Search Page|`search_fragment.xml`|✔️|
 |Message Overview page|`message_overview_fragment.xml`|✔️|
+|Profile|`activity_profile.xml`|❌|
+
 ### Navigation
 W.I.P.
 
