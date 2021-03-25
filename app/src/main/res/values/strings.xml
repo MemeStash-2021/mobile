@@ -9,4 +9,9 @@
     <string name="profile_picture">Profile picture</string>
     <string name="collection">Collection</string>
     <string name="name">Name</string>
+    <string name="logout_button">Logout</string>
+    <string name="search_button">Search</string>
+    <string name="home_button">Home</string>
+    <string name="cards_button">Cards</string>
+    <string name="messages_button">Messages</string>
 </resources>
