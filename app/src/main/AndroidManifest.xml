@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Memestash">
-        <activity android:name=".messages.Conversation"></activity>
-        <activity android:name=".profile.ProfileActivity"></activity>
+        <activity android:name=".card.CardOverview"></activity>
+        <activity android:name=".messages.Conversation" />
+        <activity android:name=".profile.ProfileActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
