@@ -28,62 +28,16 @@
     <fragment
         android:id="@+id/indexFragment"
         android:name="be.howest.borobbrecht.memestash.index.IndexFragment"
-        android:layout_width="374dp"
-        android:layout_height="573dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="390dp"
+        android:layout_height="626dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo"
         tools:layout="@layout/index_fragment" />
-
-    <LinearLayout
-        android:id="@+id/bottomNav"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/indexFragment">
-
-        <Button
-            android:id="@+id/button"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/logout_button"
-            android:textColor="@color/white" />
-
-        <Button
-            android:id="@+id/button2"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/search_button"
-            android:textColor="@color/white" />
-
-        <Button
-            android:id="@+id/button3"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/home_button"
-            android:textColor="@color/white" />
-
-        <Button
-            android:id="@+id/button4"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/cards_button"
-            android:textColor="@color/white" />
-    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
